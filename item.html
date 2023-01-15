@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Waiter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navigation">
+		<div class="user">E-Waiter</div>
+		<div class="tabs">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="item.html"><li>Food Item</li></a>
+				<a href="payement.html"><li>Payement</li></a>
+				<a href="about.html"><li>About Us</li></a>
+				<a href="contact.html"><li>Contact Info</li></a>
+			</ul>
+		</div>
+	</div>
+	<div class="items-list">
+		<div class="row">
+			<div class="item">
+				<img class="item-image" src="momo.jpg">
+					<p class="item-description">Momo /1$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="samosa.jpg">
+					<p class="item-description">Samosa / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="pizza.jfif">
+					<p class="item-description">Pizza / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="burger.jfif">
+					<p class="item-description">Burger / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="chicken.jfif">
+					<p class="item-description">Chicken / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="item">
+				<img class="item-image" src="chowmin.jpg">
+					<p class="item-description">chowmin / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="burger.jfif">
+					<p class="item-description">chowmin / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="chowmin.jpg">
+					<p class="item-description">chowmin / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="momo.jpg">
+					<p class="item-description">chowmin / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+			<div class="item">
+				<img class="item-image" src="chicken.jfif">
+					<p class="item-description">Chicken / 2$</p>
+				<button class="order-now">Order Now</button>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="ordered-item invisible" id="ordered-item">
+		<div class="header">
+			<h1>Food Item Name</h1>
+			<button class="close" id="close_button">X</button>
+		</div>
+		<div class="item-intro">
+		<img src="samosa.jpg" class="ordered-image">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<form name="order-now" class="order-form">
+			Quantity : <input type="number" id="quantity" required><br>
+			<p id="price">Price Comes Here</p>
+			<input type="button" class="submit" value="Order Now" id="submit">
+			<input type="button" class="submit" value="Payement">
+		</form>
+	</div>
+	<script type="text/javascript" src="script.js">
+		
+	</script>
+</body>
+</html>

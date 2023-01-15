@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Waiter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navigation">
+		<div class="user">E-Waiter</div>
+		<div class="tabs">
+			<ul>
+				<a><li>Dashboard</li></a>
+				<a href="backend.html"><li>Add Items</li></a>
+				<a href="ordereditem.html"><li>Ordered Items</li></a>
+			</ul>
+		</div>
+	</div>
+	<div class="add-item">
+		<form name="addItem">
+			<input type="text" name="itemname" placeholder="Name Of Food Item"><br>
+			<input type="number" name="price" placeholder="Price"><br>
+			<input type="file" name="file" class="file"><br>
+			<img src="chowmin.jpg" alt="Uploded Image Comes Here" id="uplodedImage">
+			<input type="submit" name="submit" class="submit">
+		</form>
+	</div>
+
+	<style>
+		.file{
+			background-color: lightcyan;
+		}
+		.add-item{
+			height: 90%;
+			width: 50%;
+			background-color: white;
+			box-shadow: 5px 5px 10px;
+			border-radius: 10px;
+			padding: 10px;
+			padding-right: 15px;
+			margin: auto;
+		}
+		.add-item input{
+			height: 20px;
+			width: 88%;
+			margin: 10px;
+			font-size: 15px;
+		}
+		#uplodedImage{
+			height: 40%;
+			width: 40%;
+			margin-top: 20px;
+			margin-left: 30%;
+			border: 1px solid black;
+		}
+	</style>
+</body>
+</html>
